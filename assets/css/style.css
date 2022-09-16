@@ -1,6 +1,79 @@
 /* Reset CSS */
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+}
+
+/* html */
+html {
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* body */
+body {
+    font-size: 1.5rem;
+}
+
+/* header */
+.header {
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    height: 46px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #000;
+}
+
+/* navbar */
+.nav {
+    display: inline-block;
+    line-height: 46px;
+}
+
+.nav__item {
+    display: inline-block;
+    position: relative;
+    padding: 0 24px;
+}
+
+.nav__item:hover,
+.subnav__item:hover {
+    cursor: pointer;
+    user-select: none;
+    background-color: #ccc;
+}
+
+.nav__item a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav__item > a {
+    text-transform: uppercase;
+}
+
+.nav__item:hover a {
+    color: black;
+}
+
+.subnav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+    list-style-type: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+}
+
+.subnav__item a{
+    padding: 0 12px;
+}
+
+.nav__item:hover .subnav{
+    display: block;
 }
