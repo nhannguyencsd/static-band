@@ -27,7 +27,7 @@ body {
     background-color: #000;
 }
 
-/* navbar */
+/* header navbar */
 .nav {
     display: inline-block;
     line-height: 46px;
@@ -76,4 +76,20 @@ body {
 
 .nav__item:hover .subnav{
     display: block;
+}
+
+/* header search */
+.search-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    padding: 0 24px;
+    line-height: 46px;
+    color: #fff;
+}
+    
+
+.search-btn:hover {
+    background-color: #ff0000;
+    cursor: pointer;
 }
