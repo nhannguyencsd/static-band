@@ -24,6 +24,7 @@ body {
     right: 0;
     height: 46px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1;
     background-color: #000;
 }
 
@@ -88,8 +89,34 @@ body {
     color: #fff;
 }
     
-
 .search-btn:hover {
-    background-color: #ff0000;
     cursor: pointer;
+    background-color: #ff0000;
+}
+
+/* slider */
+.slider {
+    margin-top: 46px;
+    position: relative;
+    padding-top: 48%; /* 48% of its width */
+    background: url('/assets/images/slider/event-chicago.jpg') top center /cover  no-repeat;
+    color: #fff;
+}
+
+.event {
+    position: absolute;
+    bottom: 47px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.event__heading {
+    font-weight: 400;
+    margin-bottom: 25px;
+    
+}
+
+.event__description {
+    font-weight: 600;
 }
