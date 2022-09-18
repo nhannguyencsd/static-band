@@ -98,3 +98,43 @@
 .slider__event-description {
     font-weight: 600;
 }
+
+/* content */
+.content {
+    width: 800px;
+    padding: 64px 16px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content__heading {
+    margin: 15px 0;
+    font-size: 2.7rem;
+    letter-spacing: 4px;
+}
+
+.content__subheading {
+    margin: 15px 0;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: var(--color-textSecondary);
+}
+
+.about-text {
+    margin: 15px 0;
+    text-align: justify;
+}
+
+.members {
+    display: flex;
+    padding: 32px 0;
+    justify-content: space-around;
+}
+
+.members__item-name {
+    margin: 15px 0;;
+}
+
+.members__item-image {
+    width: 154px;
+}
