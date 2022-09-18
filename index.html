@@ -5,54 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Band</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-
 </head>
 <body>
-    <div id="main">
-        <div class="header">
-            <ul class="nav">
-                <li class="nav__item"><a href="#">Home</a></li>
-                <li class="nav__item"><a href="#band">Band</a></li>
-                <li class="nav__item"><a href="#tour">Tour</a></li>
-                <li class="nav__item"><a href="#contact">Contact</a></li>
-                <li class="nav__item">
-                    <a href="#">
-                        More
-                        <i class="fa-solid fa-caret-down"></i>
-                    </a>
-                    <ul class="subnav">
-                        <li class="subnav__item"><a href="#">Merchandise</a></li>
-                        <li class="subnav__item"><a href="#">Extras</a></li>
-                        <li class="subnav__item"><a href="#">Media</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <div class="search-btn">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
+    <header class="header">
+        <ul class="header__nav">
+            <li class="header__nav-item"><a href="#">Home</a></li>
+            <li class="header__nav-item"><a href="#band">Band</a></li>
+            <li class="header__nav-item"><a href="#tour">Tour</a></li>
+            <li class="header__nav-item"><a href="#contact">Contact</a></li>
+            <li class="header__nav-item">
+                <a href="#">
+                    More
+                    <i class="fa-solid fa-caret-down"></i>
+                </a>
+                <ul class="header__subnav">
+                    <li class="header__subnav-item"><a href="#">Merchandise</a></li>
+                    <li class="header__subnav-item"><a href="#">Extras</a></li>
+                    <li class="header__subnav-item"><a href="#">Media</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="header__search">
+            <i class="fa-solid fa-magnifying-glass"></i>
         </div>
-
+    </header>
+    <main class="main">
         <div class="slider">
-            <div class="event">
-                <h2 class="event__heading">
+            <div class="slider__event">
+                <h2 class="slider__event-heading">
                     Chicago
                 </h2>
-                <p class="event__description">
+                <p class="slider__event-description">
                     Thank you, Chicago - A night we won't forget
                 </p>
             </div>
         </div>
-
         <div class="content">
-
         </div>
-
-        <div class="footer">
-
-        </div>
-    </div>
+    </main>
+    <footer class="footer">
+    </footer>
 </body>
 </html>

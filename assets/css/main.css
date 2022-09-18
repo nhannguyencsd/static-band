@@ -1,21 +1,3 @@
-/* Reset CSS */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-/* html */
-html {
-    font-size: 62.5%;
-    font-family: 'Open Sans', sans-serif;
-}
-
-/* body */
-body {
-    font-size: 1.5rem;
-}
-
 /* header */
 .header {
     position: fixed;
@@ -29,58 +11,56 @@ body {
 }
 
 /* header navbar */
-.nav {
+.header__nav {
     display: inline-block;
     line-height: 46px;
 }
 
-.nav__item {
+.header__nav-item {
     display: inline-block;
     position: relative;
     padding: 0 24px;
 }
 
-.nav__item:hover,
-.subnav__item:hover {
+.header__nav-item:hover,
+.header__subnav-item:hover {
     cursor: pointer;
     user-select: none;
     background-color: #ccc;
 }
 
-.nav__item a {
-    text-decoration: none;
+.header__nav-item a {
     color: white;
 }
 
-.nav__item > a {
+.header__nav-item > a {
     text-transform: uppercase;
 }
 
-.nav__item:hover a {
+.header__nav-item:hover a {
     color: black;
 }
 
-.subnav {
+.header__subnav {
     display: none;
     position: absolute;
     top: 100%;
     left: 0;
     min-width: 160px;
-    list-style-type: none;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     background-color: #fff;
 }
 
-.subnav__item a{
+.header__subnav-item a{
     padding: 0 12px;
 }
 
-.nav__item:hover .subnav{
+.header__nav-item:hover .header__subnav{
     display: block;
 }
 
 /* header search */
-.search-btn {
+.header__search {
     display: inline-block;
     position: absolute;
     right: 0;
@@ -89,7 +69,7 @@ body {
     color: #fff;
 }
     
-.search-btn:hover {
+.header__search:hover {
     cursor: pointer;
     background-color: #ff0000;
 }
@@ -103,7 +83,7 @@ body {
     color: #fff;
 }
 
-.event {
+.slider__event {
     position: absolute;
     bottom: 47px;
     width: 100%;
@@ -111,12 +91,10 @@ body {
     color: #fff;
 }
 
-.event__heading {
-    font-weight: 400;
+.slider__event-heading {
     margin-bottom: 25px;
-    
 }
 
-.event__description {
+.slider__event-description {
     font-weight: 600;
 }
