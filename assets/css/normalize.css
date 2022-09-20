@@ -2,7 +2,9 @@
 
 :root {
     --color-textPrimary: #000000;
-    --color-textSecondary: #aaaaaa;
+    --color-textSecondary: #ffffff;
+    --color-BGPrimary: #000000;
+
 }
 
 *,

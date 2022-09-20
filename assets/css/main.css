@@ -1,3 +1,7 @@
+.text-white {
+    color: #ffffff !important;
+}
+
 /* header */
 .header {
     position: fixed;
@@ -7,7 +11,7 @@
     height: 46px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     z-index: 1;
-    background-color: #000;
+    background-color: #000000;
 }
 
 /* header navbar */
@@ -26,11 +30,11 @@
 .header__subnav-item:hover {
     cursor: pointer;
     user-select: none;
-    background-color: #ccc;
+    background-color: #cccccc;
 }
 
 .header__nav-item a {
-    color: white;
+    color: #ffffff;
 }
 
 .header__nav-item > a {
@@ -38,7 +42,7 @@
 }
 
 .header__nav-item:hover a {
-    color: black;
+    color: var(--color-textPrimary);
 }
 
 .header__subnav {
@@ -48,7 +52,7 @@
     left: 0;
     min-width: 160px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 .header__subnav-item a{
@@ -80,7 +84,7 @@
     position: relative;
     padding-top: 48%; /* 48% of its width */
     background: url('/assets/images/slider/event-chicago.jpg') top center /cover  no-repeat;
-    color: #fff;
+    color: var(--color-textSecondary);
 }
 
 .slider__event {
@@ -88,7 +92,7 @@
     bottom: 47px;
     width: 100%;
     text-align: center;
-    color: #fff;
+    color: var(--color-textSecondary);
 }
 
 .slider__event-heading {
@@ -99,7 +103,7 @@
     font-weight: 600;
 }
 
-/* content */
+/* band */
 .content {
     width: 800px;
     padding: 64px 16px;
@@ -117,7 +121,7 @@
     margin: 15px 0;
     font-size: 1.5rem;
     font-style: italic;
-    color: var(--color-textSecondary);
+    color: #aaaaaa;
 }
 
 .about-text {
@@ -139,3 +143,95 @@
     width: 154px;
     border-radius: 5px;
 }
+
+/* tour */
+
+.container {
+    background-color: var(--color-BGPrimary);
+}
+
+.booking {
+    background-color: #ffffff;
+}
+
+.booking__month {
+    text-align: left;
+    padding: 8px 16px;
+    border-bottom: 1px solid #dddddd;
+    color: #777777;
+}
+
+.booking__sold-out {
+    padding: 0 8px;
+    margin-left: 16px;
+    color: var(--color-textSecondary);
+    background-color: #ff0000;
+}
+
+.booking__quantity {
+    float: right;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    color: var(--color-textSecondary);
+    background-color: #000000;
+}
+
+.tour {
+    display: flex;
+    justify-content: flex-start;
+    padding: 32px 0px;
+}
+
+.tour__item + .tour__item {
+    margin-left: 15px;
+}
+
+.tour__item {
+    text-align: left;
+    background-color: #ffffff;
+}
+
+.tour-image {
+    width: 100%;
+}
+
+.tour-image:hover {
+    opacity: 0.6;
+    width: 100%;
+}
+
+.tour-detail {
+    padding: 0 16px;
+}
+
+.tour-detail__heading,
+.tour-detail__subheading,
+.tour-detail__description {
+    margin: 16px 0;
+}
+
+.tour-detail__subheading {
+    color: #aaaaaa;
+}
+
+.tour-detail__btn {
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    color: var(--color-textSecondary);
+    background-color: #000000;
+}
+
+.tour-detail__btn:hover {
+    color: var(--color-textPrimary);
+    background-color: #cccccc;
+}
+
+
+
+
+
