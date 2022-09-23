@@ -33,6 +33,7 @@
         </div>
     </header>
     <main class="main">
+        <!-- home -->
         <div class="slider">
             <div class="slider__event">
                 <h2 class="slider__event-heading">
@@ -43,6 +44,7 @@
                 </p>
             </div>
         </div>
+        <!-- band -->
         <div id="band" class="content">
             <div class="content__heading">
                 THE BAND
@@ -75,7 +77,9 @@
                 </div>
             </div>
         </div>
+        <!-- tour -->
         <div id="tour" class="container">
+            <!-- tour content -->
             <div class="content ">
                 <div class="content__heading text-white">
                     TOUR DATES
@@ -118,8 +122,40 @@
                     </div>
                 </div>
             </div>
+            <!-- tour ticket modal -->
+            <div class="modal">
+                <div class="modal__container">
+                    <button class="modal__close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                    <div class="modal__header">
+                        <i class="fa-solid fa-briefcase"></i>
+                        Tickets
+                    </div>
+                    <div class="modal__body">
+                        <label for="quantity" class="modal__body-label">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            Tickets, $15 per person
+                        </label>
+                        <input id="quantity" type="text" class="modal__body-input" placeholder="How many?">
+                        <label for="email" class="modal__body-label">
+                            <i class="fa-solid fa-user"></i>
+                            Send To
+                        </label>
+                        <input id="email" type="text" class="modal__body-input" placeholder="Enter email">
+                        <button class="modal__body-payment">
+                            PAY
+                            <i class="fa-solid fa-check"></i>
+                        </button>
+                    </div>
+                    <div class="modal__footer">
+                        Need <a href="#" class="modal__footer-help">help?</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
+    <!-- footer -->
     <footer class="footer">
     </footer>
 </body>
