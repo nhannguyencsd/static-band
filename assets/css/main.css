@@ -232,7 +232,7 @@
 }
 
 .modal {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -243,10 +243,26 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.modal.open {
+    display: flex;
+}
+
 .modal__container {
     width: 900px;
     max-width: calc(100% - 32px);
+    animation: modalFadeIn 0.5s ease;
     background-color: #ffffff;
+}
+
+@keyframes modalFadeIn {
+    from {
+        transform: translateY(-150px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 .modal__close {
@@ -302,6 +318,7 @@
 }
 
 .modal__body-payment:hover {
+    cursor: pointer;
     color: #000000;
     background-color: #cccccc;
 }
@@ -317,6 +334,8 @@
     text-decoration: underline;
     color: #2196F3;
 }
+
+
 
 
 
