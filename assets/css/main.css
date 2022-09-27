@@ -405,3 +405,9 @@
     color: #000000;
     background-color: #cccccc;
 }
+
+/* map */
+.map img {
+    width: 100%;
+    filter: grayscale(50%);
+}
