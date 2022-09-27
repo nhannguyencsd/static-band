@@ -411,3 +411,19 @@
     width: 100%;
     filter: grayscale(50%);
 }
+
+/* footer */
+.footer {
+    padding: 64px 16px;
+    color: #777777;
+}
+
+.social i {
+    font-size: 20px;
+    padding: 4px;
+    padding-bottom: 16px;
+}
+
+.social a:hover {
+    opacity: 0.5;
+}
