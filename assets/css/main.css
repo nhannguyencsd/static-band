@@ -393,6 +393,7 @@
 .contact-submit {
     float: right;
     padding: 8px 16px;
+    border: none;
     margin-top: 16px;
     margin-bottom: 16px;
     color: #ffffff;
