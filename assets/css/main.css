@@ -1,5 +1,41 @@
+/* common */
+.text-center {
+    text-align: center !important;
+}
+
 .text-white {
     color: #ffffff !important;
+}
+
+.mt-16 {
+    margin-top: 16px !important;
+}
+
+.mb-8 {
+    margin-bottom: 8px !important;
+}
+
+.mb-16 {
+    margin-bottom: 16 !important;
+}
+
+.row {
+    display: flex;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-6 {
+    flex: 50%;
+}
+
+.col-12 {
+    flex: 0 0 100%;
 }
 
 /* header */
@@ -108,7 +144,6 @@
     width: 800px;
     padding: 64px 16px;
     margin: 0 auto;
-    text-align: center;
 }
 
 .content__heading {
@@ -247,6 +282,10 @@
     display: flex;
 }
 
+.modal__close {
+    border: none;
+}
+
 .modal__container {
     width: 900px;
     max-width: calc(100% - 32px);
@@ -335,9 +374,33 @@
     color: #2196F3;
 }
 
+/* contact */
+.contact {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 
+.contact-us i[class*='fa-']{
+    width: 32px;
+}
 
+.form-control {
+    padding: 8px;
+    width: 100%;
+    font-size: 1.5rem;
+}
 
+.contact-submit {
+    float: right;
+    padding: 8px 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: #ffffff;
+    background-color: #000000;
+}
 
-
-
+.contact-submit:hover {
+    cursor: pointer;
+    color: #000000;
+    background-color: #cccccc;
+}
