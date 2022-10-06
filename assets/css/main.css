@@ -70,6 +70,7 @@
 }
 
 .header__nav-item a {
+    display: block;
     color: #ffffff;
 }
 
@@ -100,18 +101,29 @@
 }
 
 /* header search */
-.header__search {
+.header__search,
+.header__mobile-menu-btn {
     display: inline-block;
     position: absolute;
+    top: 0;
     right: 0;
     padding: 0 24px;
     line-height: 46px;
     color: #fff;
 }
+
+.header__mobile-menu-btn {
+    display: none;
+}
     
 .header__search:hover {
     cursor: pointer;
     background-color: #ff0000;
+}
+
+.header__mobile-menu-btn:hover {
+    color: #000000;
+    background-color: #cccccc;
 }
 
 /* slider */
