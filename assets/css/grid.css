@@ -10,14 +10,17 @@
     padding-right: 8px;
 }
 
-.col-4 {
+/* column for pc */
+.lg-4 {
     flex: 0 0 33.33333%;
 }
 
-.col-6 {
+.lg-6 {
     flex: 0 0 50%;
 }
 
-.col-12 {
+.lg-12 {
     flex: 0 0 100%;
 }
+
+/* column for mobile */
