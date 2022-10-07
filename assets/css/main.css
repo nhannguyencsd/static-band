@@ -22,13 +22,13 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -16px;
-    margin-right: -16px;
+    margin-left: -8px;
+    margin-right: -8px;
 }
 
 .col {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .col-4 {
@@ -160,7 +160,7 @@
 .content {
     width: 800px;
     max-width: 100%;
-    padding: 64px 16px;
+    padding: 64px 8px;
     margin: 0 auto;
 }
 
@@ -196,7 +196,6 @@
 }
 
 /* tour */
-
 .container {
     background-color: var(--color-BGPrimary);
 }
@@ -230,18 +229,9 @@
     background-color: #000000;
 }
 
-.tour {
-    display: flex;
-    justify-content: flex-start;
-    padding: 32px 0px;
-}
-
-.tour__item + .tour__item {
-    margin-left: 15px;
-}
-
-.tour__item {
-    text-align: left;
+.tour-item {
+    margin-top: 32px;
+    margin-bottom: 32px;
     background-color: #ffffff;
 }
 
@@ -251,7 +241,6 @@
 
 .tour-image:hover {
     opacity: 0.6;
-    width: 100%;
 }
 
 .tour-detail {
