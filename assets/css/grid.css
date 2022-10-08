@@ -1,3 +1,4 @@
+/* default row, column */
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -10,17 +11,30 @@
     padding-right: 8px;
 }
 
-/* column for pc */
 .lg-4 {
     flex: 0 0 33.33333%;
+    max-width: 33.33333%;
 }
 
 .lg-6 {
     flex: 0 0 50%;
+    max-width: 50%;
 }
 
 .lg-12 {
     flex: 0 0 100%;
+    max-width: 100%;
 }
 
-/* column for mobile */
+/* custom column for tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+
+/* custom column for mobile */
+@media (max-width: 739px) {
+    .sm-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

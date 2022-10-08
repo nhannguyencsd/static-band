@@ -67,4 +67,9 @@
     .slider__event-description {
         font-size: 1rem;
     }
+
+    /* about part */
+    .member__image {
+        width: 70%;
+    }
 }
