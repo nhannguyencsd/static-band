@@ -10,9 +10,17 @@
 
 /* mobile */
 @media (max-width: 739px) {
+    /* common */
+    .content {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    /* header */
     .header {
         overflow: hidden;
     }
+
     .header__nav {
         display: block;
     }
@@ -44,5 +52,19 @@
 
     .header__mobile-menu-btn {
         display: block;
+    }
+
+    /* about */
+    .slider__event {
+        bottom: 8px;
+    }
+    
+    .slider__event-heading {
+        margin-bottom: 0;
+        font-size: 1.6rem;
+    }
+
+    .slider__event-description {
+        font-size: 1rem;
     }
 }
