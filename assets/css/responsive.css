@@ -54,11 +54,11 @@
         display: block;
     }
 
-    /* about */
+    /* home part */
     .slider__event {
         bottom: 8px;
     }
-    
+
     .slider__event-heading {
         margin-bottom: 0;
         font-size: 1.6rem;
