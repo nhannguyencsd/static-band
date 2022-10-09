@@ -386,10 +386,13 @@
 
 .contact-submit {
     float: right;
-    padding: 8px 16px;
+    width: 120px;
+    padding: 12px 16px;
     border: none;
     margin-top: 16px;
     margin-bottom: 16px;
+    appearance: none;
+    -webkit-appearance: none;
     color: #ffffff;
     background-color: #000000;
 }
