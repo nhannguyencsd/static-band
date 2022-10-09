@@ -5,6 +5,13 @@
 
 /* tablet and mobile */
 @media (max-width: 1023px) {
+    .tour-detail__btn,
+    .contact-submit,
+    .modal__body-input,
+    .form-control {
+        padding: 14px 16px;
+    }
+
     .contact-name {
         margin-bottom: 8px;
     }
