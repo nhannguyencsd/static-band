@@ -28,7 +28,10 @@
 
 /* custom column for tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
-
+    .md-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 }
 
 /* custom column for mobile */

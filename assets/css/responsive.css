@@ -3,6 +3,14 @@
 
 }
 
+/* tablet and mobile */
+@media (max-width: 1023px) {
+    .contact-name {
+        margin-bottom: 8px;
+    }
+}
+
+
 /* tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
 
@@ -90,10 +98,6 @@
     /* contact */
     .contact-us {
         margin-bottom: 16px;
-    }
-
-    .contact-name {
-        margin-bottom: 8px;
     }
 
     .contact-submit {
