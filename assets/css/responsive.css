@@ -5,6 +5,7 @@
 
 /* tablet and mobile */
 @media (max-width: 1023px) {
+    /* tour */
     .tour-detail__btn,
     .contact-submit,
     .modal__body-input,
@@ -12,14 +13,23 @@
         padding: 14px 16px;
     }
 
+    /* contact */
     .contact-name {
         margin-bottom: 8px;
     }
+
+    /* social */
+    .social i {
+        font-size: 32px;
+        margin: 0px 16px;
+    }
+
 }
 
 
 /* tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
+    /* common */
     .content {
         padding-left: 32px;
         padding-right: 32px;
@@ -112,5 +122,11 @@
 
     .contact-submit {
         width: 100%;
+    }
+
+    /* social */
+    .social i {
+        font-size: 28px;
+        margin: 0px 10px;
     }
 }
