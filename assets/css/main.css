@@ -366,6 +366,18 @@
     width: 32px;
 }
 
+.contact-us {
+    line-height: 1.8;
+}
+
+.contact a {
+    color:#00aaff;
+}
+
+.contact a:hover {
+    color: #4000ff;
+}
+
 .form-control {
     padding: 8px;
     width: 100%;
