@@ -172,7 +172,7 @@
 }
 
 /* tour */
-.container {
+.tour {
     background-color: var(--color-BGPrimary);
 }
 
@@ -235,6 +235,7 @@
 
 .tour-detail__btn {
     padding: 8px 16px;
+    border: none;
     margin-bottom: 16px;
     font-size: 1.6rem;
     cursor: pointer;

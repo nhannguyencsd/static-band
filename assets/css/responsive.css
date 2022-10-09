@@ -72,4 +72,21 @@
     .member__image {
         width: 70%;
     }
+
+    .member__name {
+        margin-bottom: 5px;
+    }
+
+
+    /* tour part */
+    .tour-item {
+        margin-top: 32px;
+        margin-bottom: 0;
+    }
+
+    .tour-detail__btn  {
+        width: 100%;
+    }
+
+    
 }
