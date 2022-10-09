@@ -77,7 +77,6 @@
         margin-bottom: 5px;
     }
 
-
     /* tour part */
     .tour-item {
         margin-top: 32px;
@@ -88,5 +87,16 @@
         width: 100%;
     }
 
-    
+    /* contact */
+    .contact-us {
+        margin-bottom: 16px;
+    }
+
+    .contact-name {
+        margin-bottom: 8px;
+    }
+
+    .contact-submit {
+        width: 100%;
+    }
 }
