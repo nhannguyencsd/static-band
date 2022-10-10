@@ -27,7 +27,7 @@
 }
 
 /* custom column for tablet */
-@media (min-width: 740px) and (max-width: 1023px) {
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
     .md-12 {
         flex: 0 0 100%;
         max-width: 100%;
@@ -35,7 +35,7 @@
 }
 
 /* custom column for mobile */
-@media (max-width: 739px) {
+@media (max-width: 46.1875em) {
     .sm-12 {
         flex: 0 0 100%;
         max-width: 100%;
