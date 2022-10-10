@@ -112,7 +112,7 @@
     margin-top: 46px;
     position: relative;
     padding-top: 48%; /* 48% of its width */
-    background: url('/assets/images/slider/event-chicago.jpg') top center /cover  no-repeat;
+    background: url('../images/slider/event-chicago.jpg') top center /cover  no-repeat;
     color: var(--color-textSecondary);
 }
 
