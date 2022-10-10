@@ -130,6 +130,7 @@
 
 .slider__event-description {
     font-weight: 600;
+    text-shadow: 0 0 2px #000000;
 }
 
 /* band */
