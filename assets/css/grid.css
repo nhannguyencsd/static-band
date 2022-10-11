@@ -1,14 +1,23 @@
-/* default row, column */
+/* default grid, row, column */
+.grid {
+    display: block;
+    width: 800px;
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -8px;
-    margin-right: -8px;
+    margin-left: -16px;
+    margin-right: -16px;
 }
 
 .col {
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .lg-4 {

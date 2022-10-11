@@ -134,15 +134,13 @@
 }
 
 /* band */
-.content {
-    width: 800px;
-    max-width: 100%;
-    padding: 64px 8px;
-    margin: 0 auto;
+.band {
+    padding-bottom: 60px;
 }
 
 .content__heading {
-    margin: 15px 0;
+    padding-top: 60px;
+    margin-bottom: 15px;
     font-size: 2.7rem;
     letter-spacing: 4px;
 }
@@ -174,6 +172,7 @@
 
 /* tour */
 .tour {
+    padding-bottom: 60px;
     background-color: var(--color-BGPrimary);
 }
 
@@ -360,7 +359,7 @@
 /* contact */
 .contact {
     padding-top: 32px;
-    padding-bottom: 32px;
+    padding-bottom: 60px;
 }
 
 .contact-us i[class*='fa-']{

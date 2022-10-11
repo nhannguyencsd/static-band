@@ -33,7 +33,7 @@
 /* tablet */
 @media (min-width: 46.25em) and (max-width: 63.9375em) {
     /* common */
-    .content {
+    .grid {
         padding-left: 32px;
         padding-right: 32px;
     }
@@ -47,7 +47,7 @@
 /* mobile */
 @media (max-width: 46.1875em) {
     /* common */
-    .content {
+    .grid {
         padding-left: 16px;
         padding-right: 16px;
     }
