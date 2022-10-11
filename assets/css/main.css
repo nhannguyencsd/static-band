@@ -138,14 +138,14 @@
     padding-bottom: 60px;
 }
 
-.content__heading {
+.heading {
     padding-top: 60px;
     margin-bottom: 15px;
     font-size: 2.7rem;
     letter-spacing: 4px;
 }
 
-.content__subheading {
+.subheading {
     margin: 15px 0;
     font-size: 1.5rem;
     font-style: italic;
